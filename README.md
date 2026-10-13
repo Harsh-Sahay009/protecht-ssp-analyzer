@@ -6,6 +6,8 @@
 ![Flask](https://img.shields.io/badge/Flask-2.3-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+![proTecht analyzing a FedRAMP Moderate SSP: per-control PASS / PARTIAL / FAIL with SSP and AWS evidence scores](docs/images/analysis.png)
+
 ---
 
 ## The problem
@@ -154,12 +156,6 @@ Configuration (`.env`):
 | `HOST` | `127.0.0.1` | Bind address |
 | `PORT` | `5000` | Port |
 | `FLASK_DEBUG` | `0` | Set to `1` for the debugger and auto-reload (local only) |
-
-## Screenshots
-
-<!-- TODO: add screenshot/GIF of the upload screen with the framework selector and drag-and-drop area -->
-<!-- TODO: add screenshot/GIF of the Control Analysis results (overall score + per-control PASS/PARTIAL/FAIL with findings) -->
-<!-- TODO: add screenshot/GIF of the AI Recommendations tab -->
 
 ## Roadmap
 
