@@ -1,0 +1,61 @@
+# --- Secrets & local config ---
+.env
+.env.*
+!.env.example
+*.env
+config.env
+*.pem
+*.key
+credentials
+credentials.json
+
+# --- Runtime artifacts ---
+# SQLite database is created automatically on first run
+*.db
+*.sqlite
+*.sqlite3
+# Uploaded SSP files (deleted after text extraction, but never commit them)
+uploads/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Packaged / vendored dependencies ---
+*.zip
+lambda_package/
+deploy_package/
+site-packages/
+node_modules/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
